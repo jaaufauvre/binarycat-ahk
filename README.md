@@ -14,6 +14,9 @@ BinaryCat automation using AutoHotKey (https://www.autohotkey.com/)
 * Use your own screen coordinates
 * Run [BinaryCat_v8.ahk](./BinaryCat_v8.ahk)
 
+## Strategy
+* Browser 1 and browser 2 bet the opposite side randomly (0.02 or 0.03 AVAX)
+
 ## Known Limitations
 
 * https://github.com/jaaufauvre/binarycat-ahk/issues/1
