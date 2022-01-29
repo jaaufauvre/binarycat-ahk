@@ -52,16 +52,6 @@ left_metamask_window_y := EXTERNAL_MONITOR = true ? 391 : 490
 right_metamask_window_x := EXTERNAL_MONITOR = true ? 2368 : 1680
 right_metamask_window_y := EXTERNAL_MONITOR = true ? 395 : 493
 
-; # "OK" button for the "Min bet amount is 0.00" alert
-left_ok_min_0_button_x := EXTERNAL_MONITOR = true ? 807 : 0
-left_ok_min_0_button_y := EXTERNAL_MONITOR = true ? 166 : 0
-right_ok_min_0_button_x := EXTERNAL_MONITOR = true ? 2088 : 0
-right_ok_min_0_button_y := EXTERNAL_MONITOR = true ? 170 : 0
-
-; # Close "Min bet amount is 0.00" in case it's there
-; # Click %right_ok_min_0_button_x% %right_ok_min_0_button_y%
-; # Click %left_ok_min_0_button_x% %left_ok_min_0_button_y%
-
 EnterAvaxAmount()
 {
     ; # Decide on the amount to bet (0.02 / 0.03)
